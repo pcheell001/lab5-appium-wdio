@@ -1,0 +1,22 @@
+{
+  "name": "lab5-appium-wdio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Лабораторна робота 5 - Appium 2 та WebdriverIO 8",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "appium": "appium --address 127.0.0.1 --port 4723",
+    "doctor": "appium driver doctor uiautomator2"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.0.0",
+    "@wdio/globals": "^8.0.0",
+    "@wdio/local-runner": "^8.0.0",
+    "@wdio/mocha-framework": "^8.0.0",
+    "@wdio/spec-reporter": "^8.0.0",
+    "appium": "^2.0.0",
+    "appium-uiautomator2-driver": "^4.2.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
